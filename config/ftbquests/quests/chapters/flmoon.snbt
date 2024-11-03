@@ -1,0 +1,635 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "flmoon"
+	group: "5E3CAACB575722D6"
+	icon: "ad_astra:moon_globe"
+	id: "28E6A8001A80E5C5"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["14377841BB0F2875"]
+			icon: "ad_astra:wrench"
+			id: "1E3139AA71FCF1F0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3D8FBF5C6DB4A211"
+					table_id: 1511897575099731575L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "5F6F21A2F6033A47"
+					item: "ad_astra:desh_cable"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7B386555F2EB70E7"
+				item: "ad_astra:wrench"
+				title: "{ftbquests.chapter.flmoon.quest1.task.title1}"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["14377841BB0F2875"]
+			dependency_requirement: "one_completed"
+			id: "523818ECB359BE18"
+			rewards: [
+				{
+					id: "2F70152506504FFA"
+					item: "ad_astra:fuel_bucket"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "46BBB45EA8FBDC45"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "007068EED6E89C6E"
+					table_id: 1511897575099731575L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.flmoon.quest2.subtitle}"
+			tasks: [{
+				id: "2420E6A9EF34A16A"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rover"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				title: "{ftbquests.chapter.flmoon.quest2.task.title1}"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["47DE7E756DA96CD7"]
+			id: "338050AAE5CCDD7C"
+			rewards: [
+				{
+					id: "08449AA092FFE89F"
+					item: "create:steam_engine"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4EE9A7BDF0653D65"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.flmoon.quest3.subtitle}"
+			tasks: [{
+				count: 8L
+				id: "656527BE1FB18DCD"
+				item: "ad_astra:solar_panel"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.flmoon.quest3.title}"
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["722FA069ADAACB56"]
+			id: "174CDBDAA8BE200E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "31F53CA82A78D68C"
+				table_id: 28026836370523306L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "blue_skies:lunar_log"
+				id: "39DADB020A3127DD"
+				structure: "ad_astra:lunarian_village"
+				title: "{ftbquests.chapter.flmoon.quest4.task.title1}"
+				type: "structure"
+			}]
+			x: -16.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["722FA069ADAACB56"]
+			icon: {
+				Count: 1
+				id: "enemyexpansion:headbiter_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "02D19CA11B948CDF"
+			rewards: [
+				{
+					count: 3
+					id: "55D5A3E90F1B13CA"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5DCAFFF09B1A47AF"
+					table_id: 28026836370523306L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:spawner"
+				id: "20770BC2F96F95DE"
+				structure: "ad_astra:moon_dungeon"
+				title: "{ftbquests.chapter.flmoon.quest5.task.title1}"
+				type: "structure"
+			}]
+			x: -16.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["38B848B49635D9C5"]
+			id: "27D13EAC71170A04"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "60606EE38F9477B4"
+				table_id: 28026836370523306L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "ad_astra:corrupted_lunarian"
+				id: "0B7112171F4ECC17"
+				type: "kill"
+				value: 25L
+			}]
+			title: "{ftbquests.chapter.flmoon.quest6.title}"
+			x: -21.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["02D19CA11B948CDF"]
+			id: "38B848B49635D9C5"
+			rewards: [
+				{
+					count: 5
+					id: "08E23039B8289012"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5BF193493DE4C35C"
+					table_id: 28026836370523306L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "ad_astra:star_crawler"
+				id: "087ACDEE6DE343BD"
+				type: "kill"
+				value: 25L
+			}]
+			title: "{ftbquests.chapter.flmoon.quest7.title}"
+			x: -18.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["14377841BB0F2875"]
+			id: "47DE7E756DA96CD7"
+			rewards: [{
+				count: 3
+				id: "6732191B9567E2EA"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.flmoon.quest8.subtitle}"
+			tasks: [{
+				id: "5830D54B457E3F31"
+				item: "ad_astra:oxygen_distributor"
+				title: "{ftbquests.chapter.flmoon.quest8.task.title1}"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["47DE7E756DA96CD7"]
+			id: "1AE0FF203B5DFF9D"
+			rewards: [
+				{
+					id: "59948686D53A8480"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4C9FEAD641FBE71B"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.flmoon.quest9.subtitle}"
+			tasks: [{
+				id: "023D11EA29EC6BD1"
+				item: "ad_astra:water_pump"
+				title: "{ftbquests.chapter.flmoon.quest9.task.title1}"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4C5636DFD629FD1A"]
+			icon: "minecraft:spyglass"
+			id: "722FA069ADAACB56"
+			rewards: [{
+				count: 2
+				id: "3CE4C8A59D630889"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "50D08E13E1C12010"
+				title: "{ftbquests.chapter.flmoon.quest10.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.flmoon.quest10.title}"
+			x: -13.5d
+			y: 3.0d
+		}
+		{
+			icon: "ad_astra:moon_globe"
+			id: "4C5636DFD629FD1A"
+			rewards: [{
+				count: 5
+				id: "3F457EB64A9741EF"
+				item: "ad_astra:steel_block"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				dimension: "ad_astra:moon"
+				icon: "ad_astra:moon_globe"
+				id: "49A3CFE389CAC7F3"
+				type: "dimension"
+			}]
+			title: "{ftbquests.chapter.flmoon.quest11.title}"
+			x: -10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["722FA069ADAACB56"]
+			icon: "ad_astra:small_blue_industrial_lamp"
+			id: "15602F8E3C5F34B9"
+			rewards: [
+				{
+					id: "060B692C2FC74316"
+					item: "minecraft:spyglass"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B2E93AEC4AD30B2"
+					table_id: 28026836370523306L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: "ad_astra:small_blue_industrial_lamp"
+				id: "5A9149C836DFD320"
+				structure: "ad_astra:lunar_tower"
+				title: "{ftbquests.chapter.flmoon.quest12.task.title1}"
+				type: "structure"
+			}]
+			x: -16.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"14377841BB0F2875"
+				"695B9B44EB159059"
+			]
+			id: "3610CFB86C219197"
+			rewards: [
+				{
+					id: "3FD47F04EC810DFF"
+					item: "ad_astra:desh_block"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "02A795AE9DB839F7"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "54AA24DC6E16B808"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_2_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				title: "{ftbquests.chapter.flmoon.quest13.task.title1}"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			id: "2497A5F326FA0B95"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E027A78D1847FDB"
+				table_id: 1511897575099731575L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.flmoon.quest14.subtitle}"
+			tasks: [{
+				id: "104A943175CE388A"
+				item: "immersive_aircraft:quadrocopter"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.flmoon.quest14.title}"
+			x: -5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3610CFB86C219197"]
+			icon: "ad_astra:mars_globe"
+			id: "326E670F51543705"
+			rewards: [{
+				count: 5
+				id: "08B0BE4C1A6FDB45"
+				item: "ad_astra:desh_ingot"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.flmoon.quest15.subtitle}"
+			tasks: [{
+				dimension: "ad_astra:mars"
+				icon: "ad_astra:mars_globe"
+				id: "605F5BA9DE3193A1"
+				type: "dimension"
+			}]
+			title: "{ftbquests.chapter.flmoon.quest15.title}"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			id: "695B9B44EB159059"
+			tasks: [{
+				count: 2L
+				id: "40D6A38B3F6BBEDF"
+				item: "ad_astra:launch_pad"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.flmoon.quest16.title}"
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4C5636DFD629FD1A"]
+			id: "14377841BB0F2875"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47303F531306BB2D"
+				table_id: 1511897575099731575L
+				type: "loot"
+			}]
+			shape: "circle"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.flmoon.quest17.subtitle}"
+			tasks: [{
+				id: "01E552E7FCA5D4E3"
+				item: "ad_astra:desh_ingot"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.flmoon.quest17.title}"
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["14377841BB0F2875"]
+			id: "46B37D60D2FCF9D8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5262B1BDB13DD62E"
+				table_id: 1511897575099731575L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "394F178501E6BD1E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": { }
+						}
+						id: "cp_tweaks:desh_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1371D3F74F290EF9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": { }
+						}
+						id: "cp_tweaks:desh_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1854E2465C2C5E29"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": { }
+						}
+						id: "cp_tweaks:desh_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F8BB63C4CACEC4C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": { }
+						}
+						id: "cp_tweaks:desh_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.flmoon.quest18.title}"
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["46B37D60D2FCF9D8"]
+			id: "1C2112FFA9838A6F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "282D7EC9B2DB2CB8"
+				table_id: 1511897575099731575L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1D39894446165D43"
+				item: {
+					Count: 1
+					id: "cp_tweaks:desh_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.flmoon.quest19.title}"
+			x: -7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4C5636DFD629FD1A"]
+			description: [
+				"{ftbquests.chapter.flmoon.quest20.description1}"
+				""
+				"{ftbquests.chapter.flmoon.quest20.description2}"
+				"{ftbquests.chapter.flmoon.quest20.description3}"
+			]
+			icon: "ad_astra:steel_block"
+			id: "56BE24C6C7A04413"
+			rewards: [
+				{
+					id: "019C02193CB8DBD6"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2A267F261B5B9413"
+					item: "ad_astra:steel_block"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.flmoon.quest20.subtitle}"
+			tasks: [{
+				id: "016817E15733E645"
+				title: "{ftbquests.chapter.flmoon.quest20.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.flmoon.quest20.title}"
+			x: -10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["56BE24C6C7A04413"]
+			id: "43F9ECF439A0D704"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "28AE92FCC21D1DCF"
+				table_id: 28026836370523306L
+				type: "random"
+			}]
+			tasks: [{
+				count: 32L
+				id: "249564BEC98FB64E"
+				item: "ad_astra:desh_plate"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.flmoon.quest21.title}"
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["56BE24C6C7A04413"]
+			id: "66A793A23E99EF10"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E26090912546DF9"
+				table_id: 28026836370523306L
+				type: "random"
+			}]
+			tasks: [{
+				count: 32L
+				id: "0C0D4DEB1629C9D7"
+				item: "ad_astra:desh_ingot"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.flmoon.quest22.title}"
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["56BE24C6C7A04413"]
+			id: "307AE6D3252D50C0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "108F47AE5DEF4385"
+				table_id: 28026836370523306L
+				type: "random"
+			}]
+			tasks: [{
+				count: 32L
+				id: "7E089D2B87E5ACE8"
+				item: "ad_astra:steel_ingot"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.flmoon.quest23.title}"
+			x: -11.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["56BE24C6C7A04413"]
+			id: "029BB4E94233252C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "11B1F7258925AA1C"
+				table_id: 28026836370523306L
+				type: "random"
+			}]
+			tasks: [{
+				count: 64L
+				id: "763D3200391F2A34"
+				item: "ad_astra:iron_plate"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.flmoon.quest24.title}"
+			x: -12.0d
+			y: 0.5d
+		}
+	]
+	title: "{ftbquests.chapter.flmoon.title}"
+}

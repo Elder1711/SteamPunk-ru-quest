@@ -1,0 +1,102 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "short_tutorial"
+	group: ""
+	id: "20F6781DABE545B8"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.short_tutorial.quest1.description1}"
+				"{ftbquests.chapter.short_tutorial.quest1.description2}"
+				""
+				"{ftbquests.chapter.short_tutorial.quest1.description3}"
+				"{ftbquests.chapter.short_tutorial.quest1.description4}"
+				""
+				"{ftbquests.chapter.short_tutorial.quest1.description5}"
+			]
+			icon: "cold_sweat:thermometer"
+			id: "2EFE0FF10CBFA746"
+			rewards: [{
+				id: "2EC608817C589988"
+				item: "cold_sweat:thermometer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "259859F14F5F7BDE"
+				title: "{ftbquests.chapter.short_tutorial.quest1.task.title1}"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.short_tutorial.quest2.description1}"
+				"{ftbquests.chapter.short_tutorial.quest2.description2}"
+				""
+				"{ftbquests.chapter.short_tutorial.quest2.description3}"
+				"{ftbquests.chapter.short_tutorial.quest2.description4}"
+				""
+				"{ftbquests.chapter.short_tutorial.quest2.description5}"
+				"{ftbquests.chapter.short_tutorial.quest2.description6}"
+				""
+				"{ftbquests.chapter.short_tutorial.quest2.description7}"
+				"{ftbquests.chapter.short_tutorial.quest2.description8}"
+			]
+			icon: {
+				Count: 1
+				id: "tempad:tempad"
+				tag: { }
+			}
+			id: "5056EDEBDD15D68D"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "2474CD8848984E2C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6012C1F9C3744DAC"
+				title: "{ftbquests.chapter.short_tutorial.quest2.task.title1}"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2EFE0FF10CBFA746"
+				"5056EDEBDD15D68D"
+			]
+			description: [
+				"{ftbquests.chapter.short_tutorial.quest3.description1}"
+				"{ftbquests.chapter.short_tutorial.quest3.description2}"
+				""
+				"{ftbquests.chapter.short_tutorial.quest3.description3}"
+				"{ftbquests.chapter.short_tutorial.quest3.description4}"
+				""
+				"{ftbquests.chapter.short_tutorial.quest3.description5}"
+				"{ftbquests.chapter.short_tutorial.quest3.description6}"
+			]
+			icon: "minecraft:nether_star"
+			id: "7FDB00094557CAAD"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "78E3482C20FC04B8"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6C9B845E081DCD9F"
+				title: "{ftbquests.chapter.short_tutorial.quest3.task.title1}"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+	]
+	title: "{ftbquests.chapter.short_tutorial.title}"
+}

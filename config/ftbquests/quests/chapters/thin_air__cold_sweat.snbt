@@ -1,0 +1,502 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "thin_air__cold_sweat"
+	group: "39BD55737A7439A2"
+	icon: "cold_sweat:thermometer"
+	id: "6370C852BD4C2AF5"
+	images: [
+		{
+			height: 1.0d
+			image: "cold_sweat:block/boiler_front_lit"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/boiler_front_lit"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/boiler_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/boiler_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/boiler_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/boiler_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/boiler_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/icebox_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/icebox_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/icebox_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/icebox_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/icebox_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/icebox_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/icebox_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/icebox_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/icebox_side_frosted"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/icebox_side_frosted"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/icebox_side_frosted"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/icebox_side_frosted"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/icebox_side_frosted"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/icebox_side_frosted"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/icebox_side_frosted"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/boiler_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/boiler_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -0.5d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "30E7C0BD4E574231"
+			rewards: [{
+				id: "0AFD8E0832D46509"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.thin_air__cold_sweat.quest1.subtitle}"
+			tasks: [
+				{
+					id: "3C6F9C2FDC7DE920"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					id: "663D6C2A4FA02880"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "1B7EA3424A48C2C7"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					id: "5E8AD6CBB24C660D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "create:copper_diving_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5FFBBC039B99CD38"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "create:copper_backtank"
+						tag: {
+							Air: 900
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.thin_air__cold_sweat.quest1.title}"
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			description: ["{ftbquests.chapter.thin_air__cold_sweat.quest2.description1}"]
+			id: "71D82D0A4E9A6A4C"
+			rewards: [
+				{
+					count: 5
+					id: "0050093F677CC4C5"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2878AF90290957C0"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.thin_air__cold_sweat.quest2.subtitle}"
+			tasks: [{
+				id: "07A12D7E3ECC1BE1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"cold_sweat:item_insulation": { }
+					}
+					id: "thinair:respirator"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.thin_air__cold_sweat.quest2.title}"
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"30E7C0BD4E574231"
+				"71D82D0A4E9A6A4C"
+			]
+			description: [
+				"{ftbquests.chapter.thin_air__cold_sweat.quest3.description1}"
+				""
+				"{ftbquests.chapter.thin_air__cold_sweat.quest3.description2}"
+				""
+				"{ftbquests.chapter.thin_air__cold_sweat.quest3.description3}"
+				""
+				"{ftbquests.chapter.thin_air__cold_sweat.quest3.description4}"
+				""
+				"{ftbquests.chapter.thin_air__cold_sweat.quest3.description5}"
+				""
+				"{ftbquests.chapter.thin_air__cold_sweat.quest3.description6}"
+			]
+			id: "4FD51239317FE960"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4DE1676C69387CDF"
+				table_id: 28026836370523306L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thin_air__cold_sweat.quest3.subtitle}"
+			tasks: [{
+				id: "402057F998059E35"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "create:copper_backtank"
+					tag: {
+						Air: 900
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.thin_air__cold_sweat.quest3.title}"
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			description: ["{ftbquests.chapter.thin_air__cold_sweat.quest4.description1}"]
+			id: "554FC8F643C46697"
+			rewards: [{
+				id: "29BD6231B2B0844D"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.thin_air__cold_sweat.quest4.subtitle}"
+			tasks: [{
+				id: "2639725EE4448B73"
+				item: "cold_sweat:boiler"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.thin_air__cold_sweat.quest4.title}"
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			description: ["{ftbquests.chapter.thin_air__cold_sweat.quest5.description1}"]
+			id: "768BD439E3A8384E"
+			rewards: [{
+				id: "689E2CC6ECD2073B"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.thin_air__cold_sweat.quest5.subtitle}"
+			tasks: [{
+				id: "4B03690201D70098"
+				item: "cold_sweat:icebox"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.thin_air__cold_sweat.quest5.title}"
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"558BB6BD94C602B3"
+				"3448B23DF9F63302"
+			]
+			description: [
+				"{ftbquests.chapter.thin_air__cold_sweat.quest6.description1}"
+				""
+				"{ftbquests.chapter.thin_air__cold_sweat.quest6.description2}"
+				""
+				"{ftbquests.chapter.thin_air__cold_sweat.quest6.description3}"
+			]
+			id: "1612322BF2AA9ED8"
+			rewards: [{
+				count: 8
+				id: "3C98AA139F181AFA"
+				item: "cold_sweat:soul_sprout"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.thin_air__cold_sweat.quest6.subtitle}"
+			tasks: [{
+				id: "5C542A516804A895"
+				item: {
+					Count: 1
+					id: "cold_sweat:soulspring_lamp"
+					tag: {
+						fuel: 64.0d
+						isOn: 1b
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.thin_air__cold_sweat.quest6.title}"
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"768BD439E3A8384E"
+				"554FC8F643C46697"
+			]
+			description: [
+				"{ftbquests.chapter.thin_air__cold_sweat.quest7.description1}"
+				""
+				"{ftbquests.chapter.thin_air__cold_sweat.quest7.description2}"
+			]
+			id: "4F2CD9D18AB8D097"
+			rewards: [{
+				id: "6928ECB36AF93944"
+				item: "cold_sweat:thermolith"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.thin_air__cold_sweat.quest7.subtitle}"
+			tasks: [{
+				id: "7F13027D955117B7"
+				item: "cold_sweat:waterskin"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.thin_air__cold_sweat.quest7.title}"
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.thin_air__cold_sweat.quest8.description1}"
+				""
+				"{ftbquests.chapter.thin_air__cold_sweat.quest8.description2}"
+				""
+				"{ftbquests.chapter.thin_air__cold_sweat.quest8.description3}"
+			]
+			id: "558BB6BD94C602B3"
+			rewards: [
+				{
+					id: "7BEFB5FB5CFF8960"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					id: "3B6F2C1AB1A50D5D"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.thin_air__cold_sweat.quest8.subtitle}"
+			tasks: [{
+				id: "64B9040AFC49B0BC"
+				item: "cold_sweat:hearth"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.thin_air__cold_sweat.quest8.title}"
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.thin_air__cold_sweat.quest9.description1}"
+				""
+				"{ftbquests.chapter.thin_air__cold_sweat.quest9.description2}"
+			]
+			id: "3448B23DF9F63302"
+			rewards: [{
+				count: 8
+				id: "6B214634320C61CE"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.thin_air__cold_sweat.quest9.subtitle}"
+			tasks: [{
+				id: "046FF7A6457CD3D6"
+				item: "cold_sweat:sewing_table"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.thin_air__cold_sweat.quest9.title}"
+			x: -2.0d
+			y: -2.0d
+		}
+	]
+	title: "{ftbquests.chapter.thin_air__cold_sweat.title}"
+}
